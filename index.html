@@ -90,29 +90,36 @@
                     <div class="fv">
                         <img src="images/01_banner_SMP.jpg" alt="">
                         <img src="images/02_bra_SMP.png" alt="">
-                        <img src="images/02_btn_bra_SMP.png" alt="" class="btn_bra" style="margin:1% auto">
-                        <img src="images/03_pants_SMP.png" alt="">
-                        <img src="images/03_btn_pants_SMP.png" alt="" class="btn_pants" style="margin:1% auto">
-                        <img src="images/04_offer_set_SMP.png" alt="">
-                        <img src="images/05_offer_bra_SMP.png" alt="" style="display:none">
-                        <img src="images/06_btn_pants_2_SMP.png" alt="" class="btn_pants_2" style="margin:1% auto">
-                        <img src="images/07_offer_pants_SMP.png" alt="" style="display:none">
-                        <img src="images/08_btn_set_SMP.png" alt="" class="btn_set" style="margin:1% auto">
-
-
-                        <!-- 彈跳視窗 -->
-                        <script>
-                            //週年慶活動辦法下拉選單
-                            $(".anniversary_2 img,.anniversary_2").hide();
-                            $('.anniversary_1').click(function (e) {
-                                e.preventDefault();
-                                $(".anniversary_2 img,.anniversary_2").attr("style", "display:block;");
-                            });
-                            $('.anniversary_2').click(function (e) {
-                                e.preventDefault();
-                                $(".anniversary_2 img,.anniversary_2").hide();
-                            });
-                        </script>
+                        <a href="#offer_bra">
+                            <img src="images/02_btn_bra_SMP.png" alt="" class="btn_bra" style="margin:1% auto">
+                        </a>
+                        <div id="pants">
+                            <img src="images/03_pants_SMP.png" alt="">
+                        </div>
+                        <a href="#offer_pants">
+                            <img src="images/03_btn_pants_SMP.png" alt="" class="btn_pants" style="margin:1% auto">
+                        </a>
+                        <div id="offer_set">
+                            <a href="#buy">
+                                <img src="images/04_offer_set_SMP.png" alt="">
+                            </a>
+                        </div>
+                        <div id="offer_bra">
+                            <a href="#buy">
+                                <img src="images/05_offer_bra_SMP.png" alt="" style="display:none;">
+                            </a>
+                        </div>
+                        <a href="#pants">
+                            <img src="images/06_btn_pants_2_SMP.png" alt="" class="btn_pants_2" style="margin:1% auto">
+                        </a>
+                        <div id="offer_pants">
+                            <a href="#buy">
+                                <img src="images/07_offer_pants_SMP.png" alt="" style="display:none">
+                            </a>
+                        </div>
+                        <a href="#offer_set">
+                            <img src="images/08_btn_set_SMP.png" alt="" class="btn_set" style="margin:1% auto">
+                        </a>
                     </div>
 
                     <a id="buy"></a>
